@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(11, 64, 239, 0.76),
+    rgb(18, 183, 238)
+  );
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: azure;
+}
+
+/**Nav Bar**/
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 38px;
+  margin-right: 1200px;
+}
+#connect {
+  background-image: linear-gradient(
+    to left,
+    rgba(29, 74, 222, 0.76),
+    rgba(4, 181, 240, 0.752)
+  );
+  border-radius: 30px;
+
+  color: azure;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/**Fund**/
+.fund {
+  margin-top: 250px;
+}
+h4 {
+  font-size: 40px;
+}
+input {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(6, 121, 253, 0.642);
+  border-radius: 10px;
+}
+#fund {
+  padding-left: 10px;
+  background-image: linear-gradient(
+    to left,
+    rgba(29, 74, 222, 0.76),
+    rgba(4, 181, 240, 0.752)
+  );
+  border: 2px solid rgba(55, 136, 250, 0.991);
+  border-radius: 10px;
+  color: azure;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/**buttons**/
+
+.buttons button {
+  padding-left: 10px;
+  background-image: linear-gradient(
+    to left,
+    rgba(29, 74, 222, 0.76),
+    rgba(4, 181, 240, 0.752)
+  );
+  border: 2px solid rgba(55, 136, 250, 0.991);
+  border-radius: 10px;
+  color: azure;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 100px  55px;
+  
+}
+#balance{
+    padding: 12px 45px !important; 
+}
+
+/**Footer**/
+p{
+    margin-top: 150px;
+}

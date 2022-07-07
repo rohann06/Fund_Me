@@ -43,7 +43,7 @@ async function fund() {
       const transactionResponse = await contract.fund({
         value: ethers.utils.parseEther(ethAmount),
       });
-      await console.log(`You funded ${ethAmount} ETHs, Thank you!`);
+      await alert(`You funded ${ethAmount} ETHs, Thank you!`);
       // listen for the the transaction tobe mine
       await listenFortransactionMine(transactionResponse, provider);
       console.log(`Done.`);
@@ -98,6 +98,7 @@ async function withdraw() {
     try {
       const transactionResponse = await contract.withdraw();
       await listenFortransactionMine(transactionResponse, provider);
+      await alert(`${ethAmount} ETHs has been withdrawed...`);
     } catch (error) {
       console.log(error);
     }
